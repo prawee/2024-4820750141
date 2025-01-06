@@ -1,9 +1,9 @@
 
 # Authentication(Login)
-POST http://localhost:8080/auth/local
+POST http://localhost:8080/api/auth/local
 content-type: application/json
 
 {
-    "identifier": "prawee",
+    "identifier": "prawee2",
     "password": "3yp@ssw0rd"
 }
