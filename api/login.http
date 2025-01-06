@@ -1,0 +1,9 @@
+
+# Authentication(Login)
+POST http://localhost:8080/auth/local
+content-type: application/json
+
+{
+    "identifier": "prawee",
+    "password": "3yp@ssw0rd"
+}
