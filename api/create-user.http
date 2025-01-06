@@ -1,0 +1,9 @@
+# Identificaiton(Register)
+POST http://localhost:8080/api/auth/local/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "prawee2",
+    "email": "prawee2@hotmai.com",
+    "password": "3yp@ssw0rd"
+}
